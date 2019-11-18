@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="dbConnect-Web.config Connection String" description="dbConnect Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\BusPassDB.mdf;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Prashant\ Shah\\source\\repos\\NITTE\ Bus\ Pass\ System\\NITTE\ Bus\ Pass\ System\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='dbConnect']/@connectionString" />
+  </parameter>
+</parameters>
